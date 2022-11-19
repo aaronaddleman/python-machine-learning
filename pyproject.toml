@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-machine-learning"
+version = "0.1.0"
+description = ""
+authors = ["Aaron Addleman <aaronaddleman@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_machine_learning"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.23.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
